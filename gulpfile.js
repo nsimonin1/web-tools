@@ -50,4 +50,4 @@ gulp.task('js', function(){
 });
 
 gulp.task('default', [ 'css', 'js' ]);
-gulp.task('images', [ 'css', 'js','image' ]);
+gulp.task('images', [ 'image' ]);
